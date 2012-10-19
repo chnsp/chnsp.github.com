@@ -1,5 +1,131 @@
+
+
 <html>
+<head>
+<link rel="stylesheet" href="/css/chnsp.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/js/jquery-1.5.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.8.14.custom.min.js"></script>
+
+</head>
 <body>
-<h1>Cottage Home Near Space</h1>
+<div id="content">
+    <div id="splashHolder">
+      <img class="clippedSplash" id="splash" src="/images/chnsp_splash.jpg" />
+    </div>
+    <ul id="menu">
+        <li id="mission-menu"><h1>Mission</h1></li>
+        <li id="projects-menu"><h1>Projects</h1></li>
+        <li id="team-menu"><h1>Team</h1></li>
+    </ul>
+
+    <div class="section" id="mission">
+        <h2>Exploration.   Education.   Camaraderie.</h2>
+        <p>
+The Cottage Home Near Space Program's goal, above all, is to send spacecraft into near space to conduct interesting experiments, collect data, and take
+pictures of outer space and Earth. A natural component of this is education and
+spreading knowledge on many different levels.  We are big proponents of 
+open source software and hardware, and on that level it is our goal to make as many
+of our projects as possible reproducible, with free documentation that can be used by and 
+expanded on by others.  Last but not least, the CHNS Program is about having fun 
+hanging out and building projects with other people and communities on both a 
+local and global scale.
+        </p>
+    </div>
+
+    <div class="section" id="projects">
+        <h2>Balulu</h2>
+        <p><img width="200px" src="/images/balulu1.jpg" />
+Balulu is our first back-to-basics balloon-based near space craft. Built on
+Arduino and featuring an onboard GPS, Balulu will communicate with our     
+base station via AX.25 Packet Radio. More information, including specs and launch
+party details, coming in September 2011.
+        </p>
+        <h2>Packet Radio Renewal</h2>
+        <p><img width="200px" src="/images/packet1.jpg" />
+Despite its limited bandwidth, packet radio is a great solution for distributed
+message sending, such as emergency communications, Twitter-style messages, etc.
+Due to its low power and infrastructure requirements, it can play an important role in disaster situations and other times when cell phone towers and the internet backbone may be unreliable.
+        </p>
+        <p>
+We believe the time is ripe for a renewal in hobbyist Packet Radio.  While
+Packet Radio is nothing new, and there are vast resources for it on the internet,
+we think it's too hard for the new user to get set up and started.  The goal
+for this project is to develop a set of completely open source schematics, code,
+and documentation for getting started quickly, as well as to provide easy to install packages
+for Ubuntu Linux and other operating platforms.
+        </p>
+        <h2>Research and Design</h2>
+        <p>
+Research, design, and spin-off projects have always been important components 
+of traditional space programs and the CHNS Program is no exception. In addition to
+Phase II balloons and rockets, we hope to foster and develop other interesting projects in the
+neighborhood.
+        </p>
+    </div>
+
+    <div class="section" id="team">
+        <h2>Chris Hartley</h2>
+        <p><img width="200px" src="/images/chris2.jpg" />
+Originally from Georgia, Chris got interested in electronics as a kid with 
+a Radio Shack 50 in 1 projects kit. He went to Beloit College and has a B.A. in
+Political Science. Along with his wife Annie, Chris has traveled the globe 
+and worked on a number of socially engaging projects ranging from installing small-scale solar power stations
+in Tanzania to working with Common Ground Relief in New Orleans after
+Hurricane Katrina.
+</p>
+<p>
+Chris currently works in the nonprofit field of International Education. In 
+addition to soldering and Adruino hacking, Chris is an avid arugula farmer and is
+studying to become an EMT. Balulu, one of Chris and Annie's adopted cats from
+New Orleans, is the inspiration and name for our first near space balloon.
+</p>
+        <h2>Steven Githens</h2>
+        <p><img width="200px" src="/images/steve1.jpg" />
+Steve grew up in the Upper Peninsula of Michigan and has Computer Science and
+Bioinformatics degrees from Michigan Tech. Since discovering Linux his freshman
+year, he's become an ardent open source software evangelist and has spent the
+past 5 years hacking open software stacks for education at Northwestern 
+University, the University of Cambridge, Indiana University and other places.
+        </p>
+        <p>
+After several years in Chicago, Steve moved to Indianapolis and more recently
+to Cottage Home.  One night while working on an Asterisk-based PBX with Chris, 
+Chris brought up the idea of building an Arduino-based weather balloon. Needless
+to say, no work has gotten done on the PBX since. 
+In addition to working on open source software, Steve is involved in various
+forms of progressive activism and enjoys long-distance triathlon training.
+        </p>
+        <h2>Mike Lyons</h2>
+        <p><img width="200px" src="/images/mike1.jpg" />
+Mike is the resident CHNS Program Industrial Design Engineer, and has the carbon fiber skills (learned in a brief stint on gasoline alley making Indy car parts) and design sensibilities to create both dependable and aesthetically pleasing near space craft.  For the Balulu mission, he is designing and building the chassis to safely house the avionics.
+        </p>
+        <p>
+Mike and his wife Adrian have lived in CH for the last three years, first as renting fiancé's now as married home-owning parents of beautiful baby boy ARLO. Mike stays at home with Arlo during the day and makes cool things in the evening at his shop/studio at the north end of the neighborhood. His interests include contemporary art and digital fabrication technologies.  Mike studied at the 
+IUPUI Herron School of Art and Design where he has a B.F.A. in Sculpture.
+        </p>
+        <h2>About Cottage Home</h2>
+        <p><img width="200px" src="/images/cottagehome1.jpg" />
+Nestled in Indianapolis's near east side between Mass Ave and Arsenal Tech High
+School, Cottage Home and its surrounding neighborhoods are teeming with artists,
+tinkerers, urban farmers, and in general tons of great camaraderie. All of this makes
+it a great place to live, and a natural location in which to base a space program.
+
+        </p>
+    </div>
+</div>
+<script type="text/javascript" src="/js/chnsp.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25029039-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </body>
 </html>
